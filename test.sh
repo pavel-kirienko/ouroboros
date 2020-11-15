@@ -54,6 +54,8 @@ export PYTHONASYNCIODEBUG=1
 
 ./clean.sh || die "Failed to clean"
 
+pip install -r requirements.txt || die "Could not install dependencies"
+
 # ---------------------------------------------------------------------------------------------------------------------
 
 banner TEST EXECUTION
