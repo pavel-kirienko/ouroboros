@@ -1,0 +1,7 @@
+@union
+
+uavcan.metatransport.can.Frame.0.1  can     # TODO: remove timestamp from the nested type
+uint8[<=10240]                      serial  # TODO: enlarge uavcan.metatransport.serial.Fragment and use it.
+uavcan.metatransport.udp.Frame.0.1  udp     # TODO: remove timestamp from the nested type
+
+@sealed

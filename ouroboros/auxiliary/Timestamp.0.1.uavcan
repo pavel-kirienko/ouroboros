@@ -1,0 +1,6 @@
+# The time is generally represented in two time systems:
+#   - The wall clock as configured on the system that recorded the event (CLOCK_REALTIME in POSIX).
+#   - The monotonic time of the same (CLOCK_MONOTONIC in POSIX).
+
+uavcan.time.SynchronizedTimestamp.1.0 wall  # POSIX CLOCK_REALTIME
+uavcan.time.SynchronizedTimestamp.1.0 mono  # POSIX CLOCK_MONOTONIC

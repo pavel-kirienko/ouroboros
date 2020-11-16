@@ -1,0 +1,7 @@
+# IOW status.
+
+float32 PUBLICATION_PERIOD = 1.0    # [second]
+
+ouroboros.io.iface.Status.0.1[<=Configuration.0.1.MAX_REDUNDANCY_FACTOR] iface_status
+
+@extent 8192 * 8

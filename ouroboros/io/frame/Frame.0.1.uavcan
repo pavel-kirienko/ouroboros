@@ -1,0 +1,9 @@
+# A sniffed transport frame picked up from the network.
+
+ouroboros.auxiliary.Timestamp.0.1 timestamp
+
+uint8 iface_subindex
+
+Manifestation.0.1 manifestation
+
+@sealed
