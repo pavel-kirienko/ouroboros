@@ -5,4 +5,4 @@ uavcan.primitive.String.1.0 initialization_expression
 
 State.0.1 state
 
-@extent 512 * 8
+@extent 1024 * 8

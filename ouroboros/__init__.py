@@ -23,7 +23,8 @@ logging.basicConfig(stream=sys.stderr,
                     format='%(asctime)s %(levelname)s: %(name)s: %(message)s')
 
 
-CORE_DSDL_GENERATED_DIR = filesystem.get_dsdl_generated_dir() / 'core'
+# CORE_DSDL_GENERATED_DIR = filesystem.get_dsdl_generated_dir() / 'core'
+CORE_DSDL_GENERATED_DIR = filesystem.get_package_root_dir().parent / '.test_dsdl_generated'
 sys.path.insert(0, str(CORE_DSDL_GENERATED_DIR))
 
 
@@ -43,3 +44,7 @@ except (ImportError, AttributeError):
     importlib.invalidate_caches()
     import uavcan
     import ouroboros_ipc
+
+
+def get_ipc_node_name(suffix: str) -> str:
+    return f'org.uavcan.ouroboros.{suffix}'
