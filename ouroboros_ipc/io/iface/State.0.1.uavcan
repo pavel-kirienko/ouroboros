@@ -1,8 +1,9 @@
 # Abstract interface state.
 
 @union
-@sealed
 
 OperationalInfo.0.1         operational
 uavcan.primitive.Empty.1.0  initialization
 Error.0.1                   failure
+
+@sealed

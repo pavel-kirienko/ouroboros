@@ -68,6 +68,8 @@ touch .test_dsdl_generated/stub.py &> /dev/null  # TODO: remove this later
 #   - https://docs.python.org/3/library/site.html
 pytest || die "Core PyTest returned $?"
 
+python -m ouroboros || die "Dry run returned $?"
+
 # Every time we launch a Python process, a new coverage file is created, so there may be a lot of those,
 # possibly nested in sub-directories.
 find ./*/ -name '.coverage*' -type f -print -exec mv {} . \;  || die "Could not lift coverage files"

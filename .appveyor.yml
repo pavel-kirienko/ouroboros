@@ -3,6 +3,10 @@ environment:
     -
       job_group: tests
       APPVEYOR_BUILD_WORKER_IMAGE: Ubuntu2004
+      PYTHON: '3.7'
+    -
+      job_group: tests
+      APPVEYOR_BUILD_WORKER_IMAGE: Ubuntu2004
       PYTHON: '3.8'
   GIT_TOKEN:
     secure: +jQhxLpePj6hdDryfET/XpLo7VL9fhDXVHlwLOPp/nRDYe97TJAfd0XCTuPz1qkT

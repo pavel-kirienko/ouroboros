@@ -1,6 +1,6 @@
 # A sniffed transport frame picked up from the network.
 
-ouroboros.auxiliary.Timestamp.0.1 timestamp
+ouroboros_ipc.util.Timestamp.0.1 timestamp
 
 uint8 iface_subindex
 

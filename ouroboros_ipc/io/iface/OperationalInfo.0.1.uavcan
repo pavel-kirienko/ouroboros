@@ -15,4 +15,4 @@ uint64 errors_nic           # Registered problems of the local network interface
 
 float32 network_load_pct    # Estimated total network load relative to its theoretical maximum; NaN if unknown.
 
-@extent 1024 * 8
+@extent 256 * 8

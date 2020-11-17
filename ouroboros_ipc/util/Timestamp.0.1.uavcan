@@ -4,3 +4,5 @@
 
 uavcan.time.SynchronizedTimestamp.1.0 wall  # POSIX CLOCK_REALTIME
 uavcan.time.SynchronizedTimestamp.1.0 mono  # POSIX CLOCK_MONOTONIC
+
+@sealed
